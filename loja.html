@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Loja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Icon/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body class="body_loja">
+
+
+    <nav class="italic">
+        <div class="logo">
+            <img src="img/Logo_projSemestral.png" alt="">
+        </div>
+        <div class="nav_list">
+            <ul class="bold">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <!-- <li><a href="thanks.html">VLW</a></li> -->
+            </ul>
+        </div>
+
+        <div class="hamburguer regular">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menu-toggle-label">
+                <div class="menu-icon">
+
+                </div>
+            </label>
+
+            <div class="" id="menu">
+                <ul class="bold">
+                    <button id="fechar-menu">
+                        <svg class="icon_fechar" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 20 20">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                        </svg>
+                    </button>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="loja.html">Loja</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="animated-div2"><img src="img/nuvem.webp" alt=""></div>
+    <div class="animated-div3"><img src="img/nuvem.webp" alt=""></div>
+    <div class="animated-div4"><img src="img/nuvem.webp" alt=""></div>
+
+    <div class="container_intro">
+        <div class="text_content">
+            <div class="circle_intro"></div>
+
+            <div class="intro_text">
+                <h1 class="verde_es bold">Bem Vindo a Nossa Loja!</h1>
+                <p class="regular">Seja bem-vindo à nossa loja! Aqui, é nossa principal fonte de renda para sustentar nossos trabalhos em campo. Nesta loja, vendemos todos os tipos de lembrancinhas, desde as maiores até as mais pequenas.</p>
+            </div>
+        </div>
+
+        <div class="intro_img">
+            <div class="animated-div"><img src="img/nuvem.webp" alt=""></div>
+            <img src="img/sun-89-unscreen.gif" alt="">
+        </div>
+
+    </div>
+
+    <div class="produtos_container">
+
+        <div class="btn_escolha">
+            <button class="img_btn" onclick="mostrarImagem1()"><img src="img/GarrafasTermicas (1).png" alt=""></button>
+            <button class="img_btn" onclick="mostrarImagem2()"><img src="img/sacolinha.png" alt=""></button>
+            <button class="img_btn" onclick="mostrarImagem3()"><img src="img/os mano.png" alt=""></button>
+        </div>
+
+        <div class="btn_produto">
+            <div id="imagem1" class="hidden imagem-container">
+                <img src="img/garrafas2.png" alt="Imagem 1">
+                <button class="comprar_produto regular"><a href="garrafas.html">comprar</a></button>
+            </div>
+
+            <div id="imagem2" class="hidden imagem-container">
+                <img src="img/sacolas2.png" alt="Imagem 2">
+                <button class="comprar_produto regular"><a href="sacolas.html">comprar</a></button>
+            </div>
+
+            <div id="imagem3" class="hidden imagem-container">
+                <img src="img/osmano2.png" alt="Imagem 3">
+                <button class="comprar_produto regular"><a href="bonecos.html">comprar</a></button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="java.js"></script>
+</body>
+
+</html>

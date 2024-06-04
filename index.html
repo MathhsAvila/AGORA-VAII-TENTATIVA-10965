@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"> -->
+    <link rel="shortcut icon" href="Icon/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="animation.js" defer></script>
+</head>
+
+<body>
+    <nav class="italic">
+        <div class="logo">
+            <img src="img/Logo_projSemestral.png" alt="">
+        </div>
+        <div class="nav_list">
+            <ul class="bold">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <!-- <li><a href="thanks.html">VLW</a></li> -->
+            </ul>
+        </div>
+
+        <div class="hamburguer regular">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menu-toggle-label">
+                <div class="menu-icon">
+
+                </div>
+            </label>
+
+            <div class="" id="menu">
+                <ul class="bold">
+                    <button id="fechar-menu">
+                        <svg class="icon_fechar" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 20 20">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                        </svg>
+                    </button>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="loja.html">Loja</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--PARALLAX -->
+    <div class="banner">
+        <section class="module parallax parallax-1">
+        </section>
+    </div>
+    <!-- PARALLAX -->
+
+    <!--DOAÇÃO -->
+    <div class="container_doe">
+        <div class="doe_content">
+            <h1 class="bold title_doe fade_in_card_doe">DOE, <span class="verde">CONTRIBUA</span> </h1>
+
+            <button class="bold fade_in_card_doe2"><a href="mensal.html" class="verde">Mensalmente</a></button>
+            <button class="bold fade_in_card_doe2"><a href="anual.html" class="verde">Anualmente</a></button>
+
+            <p class="bold fade_in_card_doe3">Você pode contribuir com o valor que desejar, tanto mensalmente quanto
+                anualmente
+                “recompensas surpresas para assinantes”</p>
+        </div>
+    </div>
+    <!--DOAÇÃO -->
+
+    <!-- RESULTADOS -->
+    <div class="title_resultado ocultar">
+        <h1 class="bold fade_in">RESULTADOS</h1>
+    </div>
+
+    <div class="container_bixos bold ocultar ">
+
+        <div class="destaque_hover">
+            <div class="tartaruga animal_card fade_in_top">
+                <h1>POLUIÇÃO <br> MARINHA</h1>
+                <h2>-45%</h2>
+                <img src="img/Tartaruga.webp" alt="Tartaruga">
+            </div>
+        </div>
+
+        <div class="destaque_hover">>
+            <div class="onca animal_card fade_in_top">
+                <h1>DESMATAMENTO <br> FLORESTAL</h1>
+                <h2>-65%</h2>
+                <img src="img/Onça.webp" alt="Tartaruga">
+            </div>
+        </div>
+
+        <div class="destaque_hover">
+            <div class="jacare animal_card fade_in_top">
+                <h1>CONTAMINAÇÃO <br> HÍDRICA</h1>
+                <h2>-35%</h2>
+                <img src="img/Aligator.png" alt="Tartaruga">
+            </div>
+        </div>
+
+    </div>
+    <!-- RESULTADOS -->
+
+    <!-- PARALLAX-2 -->
+    <div class="banner2">
+        <section class="module2 parallax2 parallax-2">
+            <div class="sobre_card ocultar fade_in_top2">
+                <div class="sobre_content">
+                    <h1 class="bold">Sobre <span class="verde">Nós</span></h1>
+                    <p class="regular">Somos uma ONG dedicada à proteção das florestas em todo o Brasil. Nosso
+                        compromisso é combater
+                        incansavelmente o desmatamento, restaurar ecossistemas danificados e promover práticas
+                        sustentáveis
+                        para garantir um futuro verde e saudável para as gerações futuras.</p>
+                    <button class="sobre_card_btn bold"><a href="sobre.html">Saiba mais</a></button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- PARALLAX-2 -->
+
+    <h1 class="bold news_title_section ocultar fade_in">NOSSAS NOTÍCIAS</h1>
+    <!-- NEWS -->
+    <div class="area-cartoes">
+        <div class="container-cartoes">
+            <div class="cartao sahdown_card bg_card_verde destaque_hover">
+                <img src="img-noticias/img1.jfif" alt="Rio do amazonas">
+                <h2 class="bold news_title">Barragem feita por <br> castores é destruida <br> e causa enchente</h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_amarelo destaque_hover">
+                <img src="img-noticias/img2.jfif" alt="Bioma Caatinga">
+                <h2 class="bold news_title">Seca assola a região <br> pecuaria brasileira <br> ‎ </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_azul destaque_hover">
+                <img src="img-noticias/img3.jfif" alt="Tartaruga nadando no mar">
+                <h2 class="bold news_title">Campanha de limpeza <br> das praias de Caraguá <br> salva tartarugas </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao sahdown_card bg_card_verde destaque_hover">
+                <img src="img-noticias/img1.jfif" alt="Rio do amazonas">
+                <h2 class="bold news_title">Barragem feita por <br> castores é destruida <br> e causa enchente</h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_amarelo destaque_hover">
+                <img src="img-noticias/img2.jfif" alt="Bioma Caatinga">
+                <h2 class="bold news_title">Seca assola a região <br> pecuaria brasileira <br> ‎ </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_azul destaque_hover">
+                <img src="img-noticias/img3.jfif" alt="Tartaruga nadando no mar">
+                <h2 class="bold news_title">Campanha de limpeza <br> das praias de Caraguá <br> salva tartarugas </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao sahdown_card bg_card_verde destaque_hover">
+                <img src="img-noticias/img1.jfif" alt="Rio do amazonas">
+                <h2 class="bold news_title">Barragem feita por <br> castores é destruida <br> e causa enchente</h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_amarelo destaque_hover">
+                <img src="img-noticias/img2.jfif" alt="Bioma Caatinga">
+                <h2 class="bold news_title">Seca assola a região <br> pecuaria brasileira <br> ‎ </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_azul destaque_hover">
+                <img src="img-noticias/img3.jfif" alt="Tartaruga nadando no mar">
+                <h2 class="bold news_title">Campanha de limpeza <br> das praias de Caraguá <br> salva tartarugas </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao sahdown_card bg_card_verde destaque_hover">
+                <img src="img-noticias/img1.jfif" alt="Rio do amazonas">
+                <h2 class="bold news_title">Barragem feita por <br> castores é destruida <br> e causa enchente</h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_amarelo destaque_hover">
+                <img src="img-noticias/img2.jfif" alt="Bioma Caatinga">
+                <h2 class="bold news_title">Seca assola a região <br> pecuaria brasileira <br> ‎ </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_azul destaque_hover">
+                <img src="img-noticias/img3.jfif" alt="Tartaruga nadando no mar">
+                <h2 class="bold news_title">Campanha de limpeza <br> das praias de Caraguá <br> salva tartarugas </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao sahdown_card bg_card_verde destaque_hover">
+                <img src="img-noticias/img1.jfif" alt="Rio do amazonas">
+                <h2 class="bold news_title">Barragem feita por <br> castores é destruida <br> e causa enchente</h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_amarelo destaque_hover">
+                <img src="img-noticias/img2.jfif" alt="Bioma Caatinga">
+                <h2 class="bold news_title">Seca assola a região <br> pecuaria brasileira <br> ‎ </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_azul destaque_hover">
+                <img src="img-noticias/img3.jfif" alt="Tartaruga nadando no mar">
+                <h2 class="bold news_title">Campanha de limpeza <br> das praias de Caraguá <br> salva tartarugas </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao sahdown_card bg_card_verde destaque_hover">
+                <img src="img-noticias/img1.jfif" alt="Rio do amazonas">
+                <h2 class="bold news_title">Barragem feita por <br> castores é destruida <br> e causa enchente</h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_amarelo destaque_hover">
+                <img src="img-noticias/img2.jfif" alt="Bioma Caatinga">
+                <h2 class="bold news_title">Seca assola a região <br> pecuaria brasileira <br> ‎ </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_azul destaque_hover">
+                <img src="img-noticias/img3.jfif" alt="Tartaruga nadando no mar">
+                <h2 class="bold news_title">Campanha de limpeza <br> das praias de Caraguá <br> salva tartarugas </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao sahdown_card bg_card_verde destaque_hover">
+                <img src="img-noticias/img1.jfif" alt="Rio do amazonas">
+                <h2 class="bold news_title">Barragem feita por <br> castores é destruida <br> e causa enchente</h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_amarelo destaque_hover">
+                <img src="img-noticias/img2.jfif" alt="Bioma Caatinga">
+                <h2 class="bold news_title">Seca assola a região <br> pecuaria brasileira <br> ‎ </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+            <div class="cartao cartao2 sahdown_card bg_card_azul destaque_hover">
+                <img src="img-noticias/img3.jfif" alt="Tartaruga nadando no mar">
+                <h2 class="bold news_title">Campanha de limpeza <br> das praias de Caraguá <br> salva tartarugas </h2>
+                <button class="bold btn_card_news">Ver notícia</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- NEWS -->
+
+    <!-- BTN TOP -->
+    <!-- <button onclick="goToTop()" id="topBtn" title="Go to top">Topo</button> -->
+    <!-- BTN TOP -->
+
+    <!-- FOOTER -->
+    <footer class="bold">
+        <img class="logo2" src="img/Logo_projSemestral.png" alt="Logo ONG">
+        <p>©️Trabalho IF</p>
+        <p>Política de privacidade</p>
+        <p>Fale conosco</p>
+        <p>Trasnparência</p>
+    </footer>
+    <!-- FOOTER -->
+
+    <script src="java.js"></script>
+</body>
+
+</html>
